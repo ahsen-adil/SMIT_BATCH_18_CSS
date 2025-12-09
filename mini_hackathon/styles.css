@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+    /* background: url("./back.jpg");
+    background-repeat: no-repeat; */
+    /* background-color: #0b0121; */
+    font-family: "Manrope", sans-serif;
+    
+}
+
+/* .body{
+    height: 130hv;
+    width: 100vh;
+} */
+
+.containar{
+    background: url("./back.jpg");
+    background-repeat: no-repeat;
+    background-color: #0b0121;
+    background-size: cover;
+}
+
+.containar img{
+    position: relative;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;    
+    background-color: #0b0121;
+    align-items: center;
+
+}
+
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-li{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn-1{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.nav-btn-2{
+    background-color: #0b0121;
+    border-radius: 30px;
+    padding: 10px 15px;
+    border: 2px solid white;
+
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-p1{
+    font-size: medium;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-top: 130px;
+}
+
+.home h1{
+    font-size: 70px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+.homeh1{
+    margin-top: 30px;
+}
+
+.home-p2{
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 550px;
+}
+
+.home-btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.home-btn-1{
+    padding: 10px 25px;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+
+.home-btn-2{
+    padding: 10px 25px;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    background-color: #16053C;
+
+}
+
+.home-img{
+    padding: 50px 300px;  
+    
+}
+
